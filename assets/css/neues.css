@@ -1,0 +1,73 @@
+.Ueberschrift {
+    font-family: Century Gothic;
+    border-style: outset;
+    border-color: black;
+    }
+
+    #box1         {
+        background-color: black;
+        color: white;
+        font-family: Century Gothic;
+        display: flex;
+        justify-content: center;
+        }
+
+        #box1 a
+        {
+          margin: 0px 200px;
+        }
+
+#back         {
+    position: absolute;
+    top: 130px;
+    width: 20px;
+    border: 3px solid red;
+    background-color: red;
+    padding: 3px;
+
+    }
+
+body          {
+    font-family: Century Gothic;
+    }
+
+.back         {
+    font-family: Century Gothic;
+    }
+
+@media(max-width: 1000px)
+{
+#box1
+{
+  font-size: 2.5em;
+  font-weight: 900;
+  text-shadow: 0 0 10px red, 0 0 20px red;
+}
+}
+
+
+
+
+/* unvisited link */
+a:link {
+color: white;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: white;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color: white;
+text-decoration: none;
+}
